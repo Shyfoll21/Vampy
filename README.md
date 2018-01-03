@@ -1,31 +1,9 @@
-# vampy
+# **Vampy**
 
-VAMPY - Minimal tool for RAM dumping.
+## Introduction
 
-![alt text](banner.png)
+Vampy is a bot made for Granbluefantasy International Discord server. It is also currently running on a few other servers in beta. This will serve as a list of commands available for users of the bot.
 
-## Installation
-```
-git clone https://github.com/m4n3dw0lf/vampy
-cd vampy
-python vampy.py
-```
+Things to do:
+- [ ] Finish this help page
 
-## Basics
-```
-usage:
-  -o, --output <DIRECTORY/PATH>		Output directory to store dump results
-					(strings of all dumped data will be sa
-					ved in the local directory)
-					
-  -u, --usb				Specify that the dump will be made on 
-  					USB connected device.					
-
-  -p, --process <NAME>			Name of application to dump
-
-tips:
-  Use frida-ps to get process names and PIDs
-
-e.g:
-  $python vampy.py -p firefox-esr
-```
